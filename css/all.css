@@ -35,6 +35,11 @@ button {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: 'PingFang TC', '微軟正黑體', sans-serif;
   color: #3f5d45;
