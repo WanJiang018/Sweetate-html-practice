@@ -1,0 +1,229 @@
+/* base  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+}
+
+a {
+  color: #3f5d45;
+  text-decoration: none;
+}
+
+a.block-img:hover {
+  opacity: 0.8;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'PingFang TC', '微軟正黑體', sans-serif;
+  color: #3f5d45;
+  font-size: 20px;
+}
+
+/* layout */
+.wrap {
+  max-width: 940px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.navbar {
+  margin: 30px 0;
+}
+
+/* module  */
+
+.btn {
+  display: inline-block;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
+}
+
+.btn-outline {
+  border: 1px solid #eaf0ed;
+}
+
+.btn-fullLightColor {
+  background-color: #eaf0ed;
+  color: #3f5d45;
+}
+
+.btn-outline:hover,
+.btn-outline.active {
+  background-color: #eaf0ed;
+}
+
+.block-fullDarkColor,
+.btn-fullDarkColor,
+.page-link.btn-outline.active,
+.btn-fullLightColor:hover,
+.menu-link:hover {
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+
+.block-img {
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-logo {
+  width: 220px;
+  height: 40px;
+  background-image: url(../image/logo-all-dark.svg);
+}
+
+.img-banner {
+  height: 496px;
+  background-image: url(../image/banner.png);
+  margin-bottom: 60px;
+}
+
+.ic-cart {
+  width: 24px;
+  height: 24px;
+  background-image: url(../image/shopping_cart.png);
+}
+
+.ic-heart {
+  width: 20px;
+  height: 20px;
+  background-image: url(../image/favorite_border.png);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.menu {
+  margin-right: 50px;
+}
+
+.menu-link {
+  padding: 0 30px;
+  font-size: 16px;
+}
+
+.list-category {
+  margin-right: 20px;
+}
+
+.list-category-title {
+  padding: 16px 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+.dessert-list {
+  margin-bottom: 10px;
+}
+
+.dessert-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.dessert-item:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.dessert-item h3 {
+  font-size: 20px;
+}
+
+.img-dessert {
+  height: 315px;
+}
+
+.dessert-tag {
+  font-size: 16px;
+  width: 36px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.dessert-name {
+  width: 173px;
+  padding: 13px 0;
+  border-left: 1px solid #eaf0ed;
+  border-right: 1px solid #eaf0ed;
+  font-weight: normal;
+}
+
+.dessert-price {
+  width: 127px;
+  padding: 14px 0;
+  border-right: 1px solid #eaf0ed;
+}
+
+.page-link {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+}
+
+/* common */
+.card-width {
+  min-width: 300px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.position-relative {
+  position: relative;
+}
