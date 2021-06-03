@@ -27,7 +27,8 @@ a {
   text-decoration: none;
 }
 
-a.block-img:hover, .logo > a:hover {
+a > img:hover,
+.logo > a:hover {
   opacity: 0.8;
 }
 
@@ -76,8 +77,8 @@ body {
   background-color: #eaf0ed;
 }
 
-.block-fullDarkColor,
 .btn-fullDarkColor,
+.block-fullDarkColor,
 .page-link.active,
 .btn-fullLightColor:hover,
 .menu-link:hover {
@@ -85,35 +86,24 @@ body {
   color: #eaf0ed;
 }
 
-.block-img {
+.logo a {
   display: block;
-  background-size: cover;
-  background-position: center;
-}
-
-.logo {
-  width: 220px;
-  height: 40px;
+  width: 211px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(../image/logo-all-dark.svg);
 }
 
 .img-banner {
   height: 496px;
   background-image: url(../image/banner.png);
+  display: block;
+  background-size: cover;
+  background-position: center;
 }
 
-.ic-cart {
-  width: 24px;
-  height: 24px;
-  background-image: url(../image/shopping_cart.png);
-}
-
-.ic-heart {
-  width: 20px;
-  height: 20px;
-  background-image: url(../image/favorite_border.png);
-}
-
-.card-img-overlay-ic-btn {
+.card-img-overlay-btn {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -146,7 +136,7 @@ body {
 
 .dessert-name {
   width: 173px;
-  padding: 13px 0;
+  padding: 14px 0;
   border-left: 1px solid #eaf0ed;
   border-right: 1px solid #eaf0ed;
   font-weight: normal;
