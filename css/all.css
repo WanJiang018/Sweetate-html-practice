@@ -93,12 +93,12 @@ body {
   white-space: nowrap;
   overflow: hidden;
   background-image: url(../image/logo-all-dark.svg);
+  background-repeat: no-repeat;
 }
 
 .img-banner {
   height: 496px;
   background-image: url(../image/banner.png);
-  display: block;
   background-size: cover;
   background-position: center;
 }
